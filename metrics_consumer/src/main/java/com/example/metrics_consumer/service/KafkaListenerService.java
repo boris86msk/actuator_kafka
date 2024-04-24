@@ -5,7 +5,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
-import ru.openshcool.metrics_consumer.dto.MetricDto;
+import com.example.metrics_consumer.dto.MetricDto;
 
 @Service
 @Slf4j

@@ -3,10 +3,10 @@ package com.example.metrics_consumer.service;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import ru.openshcool.metrics_consumer.dto.Measurements;
-import ru.openshcool.metrics_consumer.dto.MetricDto;
-import ru.openshcool.metrics_consumer.model.MetricModel;
-import ru.openshcool.metrics_consumer.repository.MetricsRepository;
+import com.example.metrics_consumer.dto.Measurements;
+import com.example.metrics_consumer.dto.MetricDto;
+import com.example.metrics_consumer.model.MetricModel;
+import com.example.metrics_consumer.repository.MetricsRepository;
 
 import java.time.LocalDateTime;
 
