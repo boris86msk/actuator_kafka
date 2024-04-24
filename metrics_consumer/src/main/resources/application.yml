@@ -1,0 +1,16 @@
+server:
+  port: 8077
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/my_db
+    username: boris
+    password: password
+
+  liquibase:
+    enabled: true
+    change-log: classpath:db.changelog/db.changelog-master.xml
+  kafka:
+    consumer:
+      value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
